@@ -1,0 +1,55 @@
+greek_letter:
+  alpha: a
+  beta: b
+  gamma: g
+  delta: d
+  epsilon: e
+  zeta: z
+  eta: h
+  theta: u
+  iota: i
+  kappa: k
+  lambda: l
+  mu: m
+  nu: n
+  xi: j
+  omicron: o
+  pi: p
+  rho: r
+  sigma: s
+  tau: t
+  upsilon: y
+  phi: f
+  chi: x
+  psi: c
+  omega: v
+
+greek_letter_var: [epsilon, theta, pi, rho, sigma, phi]
+
+prefix:
+  latin_boldsymbol: ''
+  latin_mathsf: s
+  greek_: q
+  greek_boldsymbol: x
+  greek_mathsf: j
+  greek_var: v
+  greek_var_bi: i
+  greek_var_sf: p
+
+base:
+  df: '\mathrm d'
+  dm: '\begin{pmatrix}#1&#2\\#3&#4\end{pmatrix}'
+  dv: '\begin{pmatrix}#1\\#2\end{pmatrix}'
+  bs: '\left(#1\right)'
+  bm: '\left[#1\right]'
+  bl: '\left\{#1\right\}'
+  ba: '\left\langle#1\right\rangle'
+  bv: '\left|#1\right|'
+  dr: '\frac{\df #1}{\df #2}'
+  pd: '\frac{\partial #1}{\partial #2}'
+  dg: '\operatorname{diag}\{#1\}'
+  ket: '\left|#1\right\rangle'
+  bra: '\left\langle #1\right|'
+  ep: '\left|#1\right\rangle\left\langle #2\right|'
+  ip: '\left\langle #1|#2\right\rangle'
+  me: '\left\langle #2|#1|#3\right\rangle'
